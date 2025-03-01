@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>RGB</title>
+</head>
+
+<body>
+    <button id="red">i am red</button>
+    <button id="green">i am green</button>
+    <button id="blue">i am blue</button>
+    <script>
+        let body = document.querySelector('body');
+        document.querySelector('#red').addEventListener('click', function () {
+            body.style.backgroundColor = 'red';
+        });
+        document.querySelector('#green').addEventListener('click', function () {
+            body.style.backgroundColor = 'green';
+        });
+        document.querySelector('#blue').addEventListener('click', function () {
+            body.style.backgroundColor = 'blue';
+        });
+        
+    </script>
+    <h1 text-align="center">Hello World</h1>
+</body>
+
+</html>
