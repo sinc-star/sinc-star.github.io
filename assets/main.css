@@ -302,7 +302,7 @@ table td {
   margin-right: 20px;
 }
 
-screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .site-nav {
     position: absolute;
     top: 9px;
@@ -312,6 +312,7 @@ screen and (max-width: 600px) {
     border-radius: 5px;
     text-align: right;
   }
+}
 
   .site-nav label[for=nav-trigger] {
     display: block;
@@ -355,7 +356,6 @@ screen and (max-width: 600px) {
   .site-nav .page-link:not(:last-child) {
     margin-right: 0;
   }
-}
 
 /**
  * Site footer
